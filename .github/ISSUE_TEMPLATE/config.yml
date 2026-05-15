@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 일반 논의 · 질문
+    url: https://github.com/1XP-Inc/badchain-whitepaper/discussions
+    about: 토론·질문·아이디어는 Discussions에서.
+  - name: 🔒 보안·민감 사항 비공개 신고
+    url: https://github.com/1XP-Inc/badchain-whitepaper/security/advisories/new
+    about: 보안 모델 헛점, 게임 이론 취약점 등 민감 사안.
+  - name: 📦 코드 관련 이슈
+    url: https://github.com/1XP-Inc/badchain
+    about: 백서가 아닌 코드 구현 관련 이슈는 메인 저장소로.

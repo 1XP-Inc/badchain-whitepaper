@@ -1,0 +1,41 @@
+name: "📝 콘텐츠 오류 신고"
+description: 타이포·사실 오류·부정확한 설명 등 백서의 명백한 오류
+title: "[error] "
+labels: ["error", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        백서의 명백한 오류를 신고합니다. (논의·제안이라면 Discussions 또는 다른 템플릿을 사용해 주세요.)
+  - type: textarea
+    id: location
+    attributes:
+      label: 위치
+      description: 어느 섹션·줄·문장에서 발견했나요? (예 `§3.2 PoBK 합의`, "Bad Power" 첫 문단)
+      placeholder: "§N.N 또는 인용 발췌"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 무엇이 잘못됐나요?
+      description: 발견한 오류·문제 상황을 구체적으로
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: 올바른 내용 / 제안 (선택)
+      description: 어떻게 고쳐야 할지 안다면
+  - type: textarea
+    id: source
+    attributes:
+      label: 출처 (선택)
+      description: 사실 오류 신고면 권위 있는 출처 링크 첨부
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 행동 강령
+      options:
+        - label: 본 저장소의 [행동 강령](../blob/main/CODE_OF_CONDUCT.md)을 읽고 준수에 동의합니다
+          required: true
