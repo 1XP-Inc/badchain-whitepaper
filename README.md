@@ -454,4 +454,12 @@ Bad Kids NFT가 단순한 디지털 아트가 아니라 **체인의 살아있는
 
 ---
 
+## License
+
+이 백서는 **[Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/)** 라이선스로 배포된다. 출처를 표시하면 누구나 자유롭게 사용·공유·번역·각색할 수 있다. 라이선스 전문은 본 저장소 [`LICENSE`](./LICENSE) 파일을 참조하라.
+
+**권장 출처 표시:** `BadChain Whitepaper © 2026 1XP Inc., CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/, https://github.com/1XP-Inc/badchain-whitepaper`
+
+---
+
 *BadChain · 2026 · v0.1*
