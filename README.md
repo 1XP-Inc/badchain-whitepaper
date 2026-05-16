@@ -27,7 +27,7 @@
 
 **BadChain**은 크립토 해킹·탈취 자금의 흐름을 *탈중앙적으로* 추적하고, 그 결과를 외부 서비스(거래소·DeFi·지갑)가 자유롭게 조회할 수 있는 위험도 지수 **Bad Point**로 산출하는 **Cosmos SDK 기반 소버린 블록체인**이다.
 
-기존 NFT 컬렉션 **Bad Kids**가 블록체인의 수호자(*Badiator*)로 기능하며, **PoBK(Proof of Bad Kids)** 합의로 운영된다. **바운티 헌터** 누구나 자금 흐름의 한 hop을 제출하고 검증 통과 시 보상받는 개방형 구조로 — 중앙화된 체인어낼리시스 서비스(Chainalysis 등)가 제공하지 못하는 *투명성·검증 가능성·참여 가능성*을 결합한다.
+기존 NFT 컬렉션 **Bad Kids**가 블록체인의 수호자(*Balidator*)로 기능하며, **PoBK(Proof of Bad Kids)** 합의로 운영된다. **바운티 헌터** 누구나 자금 흐름의 한 hop을 제출하고 검증 통과 시 보상받는 개방형 구조로 — 중앙화된 체인어낼리시스 서비스(Chainalysis 등)가 제공하지 못하는 *투명성·검증 가능성·참여 가능성*을 결합한다.
 
 ---
 
@@ -71,15 +71,15 @@ BadChain은 두 접근의 **장점만 결합**한다:
 
 원래 비전 — *"Bad Kids는 블록체인의 수호자"* — 가 메타포가 아니라 *문자 그대로* 구현된다.
 
-### 2.2 Badiator — Bad Validator
+### 2.2 Balidator — *validator*의 v → *bad*의 b
 
-1개 이상의 Bad Kids NFT를 등록한 검증인. 각 Badiator는 **AI agent 사이드카** 하나를 운영하며 외부 체인(Ethereum, BSC 등)의 RPC를 통해 추적 증거를 검증한다.
+1개 이상의 Bad Kids NFT를 등록한 검증인. 각 Balidator는 **AI agent 사이드카** 하나를 운영하며 외부 체인(Ethereum, BSC 등)의 RPC를 통해 추적 증거를 검증한다.
 
 비유: 경찰서 하나당 agent 하나.
 
 ### 2.3 Bad Kids 스쿼드 — "경찰서" 단위
 
-한 Badiator에 위임된 Bad Kids NFT 집합. 스쿼드의 보팅파워 = 스쿼드 NFT들의 Bad Power 합산. 위임은 *Bad → NFT → Badiator* 2단계.
+한 Balidator에 위임된 Bad Kids NFT 집합. 스쿼드의 보팅파워 = 스쿼드 NFT들의 Bad Power 합산. 위임은 *Bad → NFT → Balidator* 2단계.
 
 ### 2.4 Bounty Hunter — 추적자
 
@@ -145,7 +145,7 @@ ZachXBT 같은 독립 추적자 모델의 **프로토콜 레벨 일반화**.
 
 ### 3.4 AI Agent 사이드카
 
-Badiator당 하나. 다음 두 종류 검증을 수행:
+Balidator당 하나. 다음 두 종류 검증을 수행:
 
 **결정론적 검증** (모든 엣지):
 1. TX 존재성 + confirmed 여부
@@ -420,7 +420,7 @@ Bad Kids NFT가 단순한 디지털 아트가 아니라 **체인의 살아있는
 | State Architecture | 이벤트 기반 Bad Point 캐시 + 시간 감쇠 실시간 적용 |
 | Query Interface | 표준 Cosmos ABCI Query (요약/상세 두 엔드포인트, **무료**) |
 | Bond/Slashing | 헌터 bond — 엣지 수 × 유형 단가. 검증 실패 시 slash |
-| AI Agent | Badiator당 1개 사이드카. 모델 α (데몬이 서명) |
+| AI Agent | Balidator당 1개 사이드카. 모델 α (데몬이 서명) |
 
 ### B. 핵심 결정 요약 (인터뷰 21라운드 결과)
 
